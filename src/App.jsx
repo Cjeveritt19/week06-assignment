@@ -3,12 +3,8 @@ import Images from "./components/Image";
 export default function App() {
   return (
     <>
-      <div className="Gallery">
+      <div>
         <Images />
-      </div>
-
-      <div className="LargeImage">
-        <Large-Image />
       </div>
     </>
   );
